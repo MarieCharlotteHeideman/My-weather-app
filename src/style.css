@@ -36,6 +36,48 @@ body {
   color: white;
 }
 
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  font-size: 40px;
+  margin: 0;
+}
+
+.details {
+  line-height: 25px;
+  color: grey;
+}
+
+.weather-data strong {
+  color: #3f7fb7;
+}
+
+.temperature-details {
+  display: flex;
+}
+
+.emoji {
+  font-size: 35px;
+  margin-top: 26px;
+}
+
+.temperature {
+  font-weight: bold;
+  font-size: 76px;
+}
+
+.unit {
+  margin-top: 22px;
+  font-size: 30px;
+}
+
+main {
+  padding: 30px 0;
+}
+
 .border-footer {
   border-color: #9daf89;
   margin-bottom: 25px;
