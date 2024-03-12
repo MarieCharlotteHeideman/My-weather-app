@@ -41,3 +41,14 @@ body {
   margin-bottom: 25px;
   opacity: 6%;
 }
+
+footer {
+  text-align: center;
+  color: #9daf89;
+  opacity: 70%;
+  font-size: 14px;
+}
+
+a {
+  color: #87a4bd;
+}
