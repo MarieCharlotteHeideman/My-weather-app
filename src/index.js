@@ -8,6 +8,9 @@ function refreshWeather(response) {
   let dayElement = document.querySelector("#day");
   let date = new Date(response.data.daily[0].time * 1000);
 
+  let icon = document.querySelector("#icon");
+  icon.innerHTML = `<img src="${response.data.daily[0].condition.icon_url}" class="icon" />`;
+
   console.log(response);
 
   cityElement.innerHTML = response.data.city;
