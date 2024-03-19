@@ -36,6 +36,11 @@ body {
   color: white;
 }
 
+.search-form-button:hover {
+  background-color: #87a4bd;
+  cursor: pointer;
+}
+
 .weather-data {
   display: flex;
   justify-content: space-between;
