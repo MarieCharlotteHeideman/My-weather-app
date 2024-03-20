@@ -83,6 +83,24 @@ main {
   padding: 30px 0;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+}
+
+.weather-forecast-date {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+}
+
+.weather-forecast-temperature-max {
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 .border-footer {
   border-color: #9daf89;
   margin-bottom: 25px;
