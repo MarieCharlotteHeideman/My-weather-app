@@ -83,13 +83,19 @@ main {
   padding: 30px 0;
 }
 
-.weather-forecast {
+#forecast {
   display: flex;
+  justify-content: space-around;
   text-align: center;
   color: grey;
 }
 
 .temperature-max {
+  color: #3f7fb7;
+  margin-right: 14px;
+}
+
+.temperature-min {
   color: #3f7fb7;
 }
 

@@ -50,4 +50,30 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+function displayForecast() {
+  let days = ["Fri", "Sat", "Sun", "Mon", "Tue"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+  <div class="weather-forecast">
+    <p class="forecast-day">${day}</p>
+    <p class="forecast-icon">☀️</p>
+    <div class="temperatures-min-max">
+      <span>
+        <strong class="temperature-max">18° </strong>
+      </span>
+      <span class="temperature-min"> 12°</span>
+    </div>
+  </div>
+`;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 searchCity("Haarlem");
+displayForecast();
