@@ -83,6 +83,16 @@ main {
   padding: 30px 0;
 }
 
+.weather-forecast {
+  display: flex;
+  text-align: center;
+  color: grey;
+}
+
+.temperature-max {
+  color: #3f7fb7;
+}
+
 .border-footer {
   border-color: #9daf89;
   margin-bottom: 25px;
