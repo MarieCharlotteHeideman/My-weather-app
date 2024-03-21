@@ -39,6 +39,7 @@ body {
 .search-form-button:hover {
   background-color: #87a4bd;
   cursor: pointer;
+  transition: 400ms;
 }
 
 .weather-data {
@@ -88,6 +89,16 @@ main {
   justify-content: space-around;
   text-align: center;
   color: grey;
+}
+
+#forecast:hover {
+  background-color: rgba(225, 233, 218, 0.2);
+  border-radius: 15px;
+  transition: 400ms;
+}
+
+.forecast-icon {
+  width: 70px;
 }
 
 .temperature-max {
